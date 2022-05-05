@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: rgba(48,218,255,1.00);
+}
+.box {
+	border: solid 4px rgba(3,167,47,1.00);
+	padding: 2% 5% 5% 5%;
+	margin: 5%;
+}
+h1, h2, p, .nolink {
+	color: white;
+}
+h1 {
+	font-style: italic;
+	font-family: PT Serif, serif; 
+	font-size: 30px;
+	font-weight: 200;
+}
+h2, nav{
+	font-family: sans-serif;
+}
+nav {
+	font-weight: 600;
+}
+img {
+	height: 235px;
+	width: auto;
+	float: right;
+	margin: 0px 10px 20px 20px;
+}
+header, footer {
+	text-align: center;
+	clear: both;
+}
+footer {
+	margin-top: 20px;
+}
+p {
+	line-height: 150%;
+	font-size: 16px;
+}
+.socialmedia > a {
+	color: rgba(3,167,47,1.00);
+}
+header > nav > a {
+	color: rgba(3,167,47,1.00);
+}
+span {
+	color: rgba(88,88,88,1.00);
+}
